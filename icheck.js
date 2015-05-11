@@ -119,7 +119,7 @@
           offset = -area + '%',
           size = 100 + (area * 2) + '%',
           layer = {
-            position: 'absolute',
+            // position: 'absolute', -> This cause the helper area to grow too big in EgisUI.Dialog.Show
             top: offset,
             left: offset,
             display: 'block',
